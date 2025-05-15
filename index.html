@@ -10,34 +10,80 @@
     <h1>Exercício de Formulário</h1>
     <p>Pressione Alt+ tecla sublinhada para acessar os campos rapidamente. Use Tab para navegar entre os campos.</p>
      <br>
-     <form action="" method="post">
-        <label for="nome"> Nome Completo:*</label>
+     <form action="" method="post"> 
+        <label for="nome"> Nome Completo:*</label> 
         <br>
         <input type="text" id="text" name="nome"> 
-        <br>
-        <label for="email">E-mail:*</label>
+        <br> 
+        <label for="email">E-mail:*</label> 
         <br>
         <input type="email"  name="email">
         <br>
-       <label for="cpf">CPF:*</label> 
+       <label for="cpf">CPF:*</label>  
        <br>
-       <input type="cpf" name="cpf">
+       <input type="number" name="cpf"> 
        <br>
        <label for="tipo">Tipo de Usuário *</label>
        <br>
-       <input type="radio" name="tipo" id="aluno">aluno
-       <input type="radio" name="tipo" id="professor">professor
-       <input type="radio" name="tipo" id="visitante">visitante
+       <input type="radio" name="tipo1" id="aluno">aluno
+       <input type="radio" name="tipo2" id="professor">professor
+       <input type="radio" name="tipo3" id="visitante">visitante
        <br>
        <label for="tel">Telefone</label>
        <br>
        <input type="reset" value="limpar">
+       <label for="data">Data de Nascimento</label>
+       <br>
+       <input type="date" name="data">
+       <label for="website">Website</label>
+       <br>
+       <input type="url" name="website">
+      <br>
+    <label for="uf">Estado</label>
+    <br>
+    <select name="uf">
+     <option value="AC">Acre</option>   
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+     <option value="AC"></option>  
+         
+    </select>
 
 
+       <label for="senha">Senha</label>
+       <input type="password" name="senha">
 
+    <br>
 
+ <label for="confsenha">Confirmar Senha</label>
+ <input type="password" name="confsenha">
 
+ <input type="reset" value="limpar">
+ <input type="submit" value="Enviar">
 
-     </form>
+    </form>
 </body>
 </html>
