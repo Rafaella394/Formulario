@@ -1,0 +1,116 @@
+body {
+   
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+line-height: 1.6;
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+
+}
+
+h1{
+    text-align: center;
+    color:#4285f4
+}
+
+p{
+    text-align: center;
+ margin-bottom: 20px;
+ color: #666;
+}
+
+form{
+  background-color: #f9f9f9;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    display: block;
+ margin-bottom: 5px;
+ font-weight: bold;
+}
+
+input, textarea, select{
+    width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+ background-color: #4285f4;
+color: white;
+border: none;
+padding: 12px 20px;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+width: 40%;
+}
+
+button, :hover {
+    border-color: #3367d6;
+}
+
+input :invalid {
+   border-color: darkgreen;
+}
+
+.error{
+    color:red ;
+    font-size: 14px; ;
+    margin-top: 5px;
+    display: none;
+}
+
+input:invalid + .error{
+    display: block;
+}
+fieldset{
+    border:1px solid rgb(91,91,91);
+    border-radius: 4px;
+    padding: 10px,15px;
+    margin:0;
+}
+
+legend{
+    font-weight: bold;
+
+}
+
+.radio-option{
+    display: flex;
+    align-items: center;
+
+}
+
+.radio-option input[type="radio"] {
+    width: auto;
+    margin-right :5px;
+
+}
+
+.radio-option label{
+    display: inline;
+    margin: 0;
+    font-weight: normal;
+}
+
+.form-group{
+    margin-bottom: 15px;
+
+}
+
+.form-button{
+    display:flex,
+    justify-content  center ;
+    gap: 20px;
+}
+
+.check{
+    display: flex;
+}
